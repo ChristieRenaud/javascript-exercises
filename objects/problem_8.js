@@ -1,0 +1,7 @@
+function penultimate(string) {
+  stringArray = string.split(' ')
+  return stringArray[stringArray.length - 2];
+}
+
+console.log(penultimate('last word'));                    // expected: "last"
+console.log(penultimate('Launch School is great!'));      // expected: "is"
